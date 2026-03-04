@@ -19,8 +19,8 @@ app.post("/execute", async (req, res) => {
     language: "cpp",
     versionIndex: "5",
     stdin: stdin || "",
-    clientId: "8cace9e01420dd8fc831d625909e7601",
-    clientSecret: "ec38e848bc7f7f3ee9d006235be5f234753e1574caf79d36076bfd85d3820252",
+    clientId: "eaeb6c6308d2e5ca76d6f51fa390ebf",
+    clientSecret: "e8ed6c3ea0bb70283cf122d277a2111b9b6629ac03e843486e74671d7f4fd81c",
   };
   try {
     const response = await axios.post("https://api.jdoodle.com/v1/execute", program);
